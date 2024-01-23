@@ -10,13 +10,7 @@
 //      const fetchImages = async () => {
 //           try {
 //                const cloudName = 'dtkgxrrkj';
-//                const apiKey = '724551727272949';
-//                const apiSecret = 'mgHfVtAX1EZVP7OX6bhYAGndwf4'
-//                const response = await fetch(`https://res.cloudinary.com/${cloudName}/image/list/uploaded.json`, {
-//                     headers: {
-//                          Authorization: `Bearer ${apiKey}:${apiSecret}`,
-//                     },
-//                })
+//                const response = await fetch(`https://res.cloudinary.com/${cloudName}/image/list/uploaded.json`)
 
 //                if (!response.ok) {
 //                     console.error('Response status:', response.status);
